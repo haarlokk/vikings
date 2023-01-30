@@ -84,7 +84,7 @@ figcaption {
     grid-template-rows: auto;
     grid-template-areas: 
         "header header header header header header header header header"
-        "nav nav main main main main main aside aside"
+        "nav main main main main main main main aside"
         "footer footer footer footer footer footer footer footer footer";
     width: 80%;
     margin-left: auto;
@@ -132,7 +132,7 @@ article p {
 }
 #nested-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 iframe {
     width: 80%;
@@ -143,4 +143,4 @@ iframe {
 @media screen and (max-width: 600px) {
     #youtube-video {
       display: none;
-}
+    }

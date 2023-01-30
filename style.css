@@ -84,7 +84,7 @@ figcaption {
     grid-template-rows: auto;
     grid-template-areas: 
         "header header header header header header header header header"
-        "nav main main main main main main main aside"
+        "nav nav main main main main main aside aside"
         "footer footer footer footer footer footer footer footer footer";
     width: 80%;
     margin-left: auto;
@@ -143,4 +143,4 @@ iframe {
 @media screen and (max-width: 600px) {
     #youtube-video {
       display: none;
-    }
+}

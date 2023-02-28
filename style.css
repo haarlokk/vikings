@@ -1,6 +1,6 @@
 /* color codes:
     gul = #ffcc3d 
-    lille = #4f2683 */
+    lilla = #4f2683 */
 body {
     background-color: #4f2683;
     text-align: center;
@@ -141,6 +141,6 @@ iframe {
 }
 
 @media screen and (max-width: 600px) {
-    #youtube-video {
+    #youtube-video 
       display: none;
     }

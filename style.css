@@ -10,7 +10,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-        .grid-container {
+    .grid-container {
         display: grid;
         grid-template-columns: 16% 1fr 1fr 16%;
         background-color: #4f2683;
@@ -26,6 +26,8 @@
         background-color: #321a50;
         color: #ffcc3d;
         font: 2rem sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
         text-align: left;
         margin: 0;
         padding: 1rem;
@@ -34,21 +36,25 @@
     h3 {
         background-color: #321a50;
         color: #ffcc3d;
-        font: 1rem sans-serif;
+        font: 1.5rem sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
         text-align: left;
         margin: 0;
         padding: 0.5rem;
     }
     
-    h3 {
+    h4 {
         background-color: #321a50;
         color: #ffcc3d;
-        font: 1rem sans-serif;
+        font: 1.5rem sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
         text-align: left;
-        margin: 0;
+        margin: 1rem 0 0.8rem 0;
         padding: 0.5rem;
     }
-    
+
     h5 {
         color: #8f8d88;
         font: 0.8rem sans-serif;
@@ -60,7 +66,7 @@
     
     p {
         font-family:'Times New Roman', Times, serif;
-        margin: 1rem;
+        margin: 1rem 1rem 2rem 1rem;
     }
     
     .header {
@@ -75,12 +81,11 @@
     .navmenu {
         grid-column: 1 / span 1;
         grid-row: 2;
-        border-right: 1px solid black;
     }
     
     .navmenu ul {
         list-style-type: none;
-        margin: 0;
+        margin: 1.6rem 0 0 0;
         padding: 0;
         width: auto;
       }
@@ -104,31 +109,32 @@
     }
     
     .news {
-        background-color: white;
+        background-color: #FFF;
         border: #ffcc3d solid 6px;
         margin: 1.6rem;
     }
     
     .info {
-        background-color: #cdb8e9;
+        background-color: #eddeff;
+        border-bottom: 1px solid #4f2683;
         padding: 1rem;
-        margin: 0;
+        margin: 0 0 2rem 0;
     }
-    
+
     figure {
         margin: 0;
         padding: 0;
     }
     
     .img {
+        display: block;
         width: 100%;
     }
     
     .sidebar {
         grid-column: 4;
         grid-row: 2;
-        border-left: 1px solid black;
-    
+        margin: 0.6rem 0 0 0;
     }
     
     .sidebar ul {
@@ -139,21 +145,20 @@
     }
     
     .sidebar li a {
-        display: block;
-        color: #4f2683;
-        font-size: 1rem;
+        color: #ffcc3d;
+        font-size: 0.8rem;
         font-family: sans-serif;
-        background-color: #ffcc3d;
-        border-color: #4f2683;
-        border-top: 1px solid;
-        border-bottom: 1px solid;
-        padding: 4px 8px;
+        padding: 1rem;
         text-decoration: none;
     }
     
     .footer {
         grid-column: 1 /span 4;
         grid-row: 3;
-        border-top: 1px solid #000;
+        border-top: 1px solid #ffcc3d;
+        color: #070707;
+        font-size: 0.94rem;
+        text-align: center;
+        padding: 1rem;
     }
     

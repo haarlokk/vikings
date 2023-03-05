@@ -34,8 +34,8 @@
     }
     
     h3 {
-        background-color: #321a50;
-        color: #ffcc3d;
+        color: #321a50;
+        background-color: #ffcc3d;
         font: 1.5rem sans-serif;
         font-weight: bold;
         letter-spacing: 0.1rem;
@@ -68,7 +68,7 @@
         font-family:'Times New Roman', Times, serif;
         margin: 1rem 1rem 2rem 1rem;
     }
-    
+
     .header {
         grid-column: 1 / span 4;
         grid-row: 1;

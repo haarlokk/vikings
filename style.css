@@ -109,13 +109,12 @@
     }
     
     .news {
-        background-color: #ffcc3d;
+        background-color: #ffffff;
         border: #ffcc3d solid 6px;
         margin: 1.6rem;
     }
 
     .info {
-        background-color: #eddeff;
         padding: 1rem;
         margin: 0 0 2rem 0;
     }

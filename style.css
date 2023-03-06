@@ -109,21 +109,25 @@
     }
     
     .news {
-        background-color: #FFF;
+        background-color: #ffcc3d;
         border: #ffcc3d solid 6px;
         margin: 1.6rem;
     }
 
     .info {
         background-color: #eddeff;
-        border-bottom: 1px solid #4f2683;
         padding: 1rem;
         margin: 0 0 2rem 0;
     }
 
     ol.info {
+        list-style-image: url('images/list_style_image_vikings.png');
         padding: 1rem 1rem 1rem 2rem;
-        margin: 1rem;
+        margin: 0 0 1rem 0;
+    }
+
+    ol.info li {
+        padding: 0 0 1rem 0;
     }
 
     figure {

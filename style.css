@@ -4,7 +4,7 @@
     body {
         background-image: url("images/background_logo.png");
         background-repeat: repeat;
-        width: 60%;
+        width: 70%;
         margin: 0;
         padding: 0;
         margin-left: auto;
@@ -99,7 +99,7 @@
     .navmenu ul {
         list-style-type: none;
         margin: 1.6rem 0 0 0;
-        padding: 0;
+        padding: 4px;
         width: auto;
       }
     
@@ -112,13 +112,14 @@
         border-color: #4f2683;
         border-top: 1px solid;
         border-bottom: 1px solid;
-        padding: 8px 16px;
+        padding: 8px 6px;
         text-decoration: none;
     }
     
     .main {
         grid-column: 2 / span 2;
         grid-row: 2;
+        padding: 20px;
     }
     
     .news {
@@ -178,6 +179,25 @@
     }
     
     .sidebar li a {
+        color: #ffcc3d;
+        font-size: 0.8rem;
+        font-family: sans-serif;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    .sidebarright {
+        margin-top: 40px;
+    }
+
+    .sidebarright ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .sidebarright li a {
         color: #ffcc3d;
         font-size: 0.8rem;
         font-family: sans-serif;
